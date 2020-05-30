@@ -1,0 +1,20 @@
+.Forecast1Day {
+    display: inline-block;
+    border: 1px solid #dddddd;
+    padding: 15px;
+    text-align: center;
+    width: 180px; 
+    background-color: #f5ede2;
+    opacity: 0.8;
+}
+
+.Forecast1Day span{
+    color: grey;
+    margin-right: 15px;
+
+}
+
+.Forecast1Day p{
+    font-size: 17px;
+    font-weight: bold;
+}
