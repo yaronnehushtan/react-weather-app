@@ -9,7 +9,7 @@ class ForecastWeek extends Component {
         this.state={
             forecastData: []
         }
-        this.days = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday']
+        
     }
 
     componentDidMount () {
@@ -27,7 +27,7 @@ class ForecastWeek extends Component {
                 <h1>Five days forecast</h1>
                 {this.state.forecastData.map(OneDayForecast =>{
                     return (<Forecast1Day key={OneDayForecast.day}
-                                        day={this.days[OneDayForecast.day]}
+                                        day={OneDayForecast.day}
                                         temperature={OneDayForecast.temperature}
                                         icon={OneDayForecast.icon}
                                         description={OneDayForecast.description}
